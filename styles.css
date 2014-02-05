@@ -1,10 +1,28 @@
 <style>
-/** Print **/
+/** Different Sizes **/
+@media (max-width: 470px) {
+	#aside {
+		display: none;
+	}
+	body {
+		padding: 0%;
+	}
+	#navigation{
+
+	}
+	#header{
+		position:fixed;
+		top: 100%;
+	}
+
+
+}
+
+/** Print Page **/
 @media print {
 	   #aside {
         float: none;
-        display: block;
-       
+        display: block;   
     }
         #header, #footer, #navigation {
         display: none;
@@ -14,6 +32,8 @@
         margin-right: 0px;
     }
 }
+
+
 
 	#container
 	{
