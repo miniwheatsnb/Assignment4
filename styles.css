@@ -8,6 +8,7 @@
 		padding: 0%;
 	}
 	#navigation{
+		margin-top: 75px;
 
 	}
 	#navigation ul li
@@ -20,7 +21,8 @@
 	}
 	#header{
 		position:fixed;
-		top: 100%;
+		top: 0px;
+		left: 0px;
 	}
 	   #content {
         width: 100%;
