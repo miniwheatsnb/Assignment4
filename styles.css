@@ -1,4 +1,14 @@
 <style>
+/** Print **/
+@media print {
+	   #aside {
+        float: none;
+        display: block;
+       
+    }
+
+}
+
 	#container
 	{
 	    margin: 0 auto;
