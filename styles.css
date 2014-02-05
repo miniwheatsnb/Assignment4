@@ -10,12 +10,21 @@
 	#navigation{
 
 	}
+	#navigation ul li
+	{
+		display: block;
+	}
+	#navigation li a
+	{
+		float: none;
+	}
 	#header{
 		position:fixed;
 		top: 100%;
 	}
-
-
+	   #content {
+        width: 100%;
+    }
 }
 
 /** Print Page **/
