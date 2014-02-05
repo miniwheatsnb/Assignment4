@@ -6,7 +6,7 @@
         display: block;
        
     }
-        #header, #footer {
+        #header, #footer, #navigation {
         display: none;
     }
     #content {
